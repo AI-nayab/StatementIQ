@@ -1,0 +1,25 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Environment variables & secrets (CRITICAL: Never commit .env)
+.env
+.env.local
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# PDF Statements & User Data (protect personal financial data)
+sample_data/*.pdf
+*.pdf
+
+# Streamlit local credentials
+.streamlit/credentials.toml
+
+# OS generated files
+.DS_Store
+Thumbs.db
